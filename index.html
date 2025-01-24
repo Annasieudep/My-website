@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Sidebar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar"></div>
+
+    <!-- Nội dung -->
+    <div class="content">
+        <h1>Trang Chủ</h1>
+        <p>Đây là nội dung chính của trang web.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer"></div>
+
+    <!-- Nút Dark Mode -->
+    <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+        <ion-icon id="theme-icon" name="moon-outline"></ion-icon>
+        <span id="theme-text">Chế Độ Tối</span>
+    </div>
+</body>
+</html>
